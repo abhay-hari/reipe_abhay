@@ -4,6 +4,8 @@ import 'package:reipe_abhay/Sign%20up%20page/loginpage.dart';
 import 'package:reipe_abhay/Sign%20up%20page/signup.dart';
 import 'package:provider/provider.dart';
 import 'Pages/Article one.dart';
+import 'Pages/BottomNavigation Bar Screens/AddyoursScreen.dart';
+import 'Pages/BottomNavigation Bar Screens/Media Screen.dart';
 import 'Pages/CWWIH.dart';
 import 'Diet and allergies.dart';
 import 'Goal.dart';
@@ -34,10 +36,11 @@ class MyApp extends StatelessWidget {
         ),
         // home:StartingPage(),
         //   home: StartingPage(),
-        home: FromIncre(),
+        // home: FromIncre(),
         // home:CWWIH(),
         // home:ArticleOne(),
-        // home:Ccontainer(),
+        // home:Home(),
+          home: AddYoursScreen(),
       ),
     );
   }

@@ -67,7 +67,6 @@ List<String> images=[
                       child: Padding(
                         padding:  EdgeInsets.all(8.0),
                         child: TextFormField(
-
                           decoration: InputDecoration(
                               floatingLabelBehavior: FloatingLabelBehavior.never,
                               enabledBorder: UnderlineInputBorder(
@@ -76,7 +75,6 @@ List<String> images=[
                               focusedBorder: UnderlineInputBorder(
                                 borderSide: BorderSide(color: Colors.white),
                               ),
-
                               prefixIcon: Icon(Icons.search),
                               labelText: "Serach Recipes, Cuisines, Diets,"
                               ,labelStyle: TextStyle(
